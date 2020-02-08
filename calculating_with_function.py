@@ -1,3 +1,4 @@
+#Feeding data as functions
 def zero(f = None): return 0 if not f else f(0)
 def one(f = None): return 1 if not f else f(1)
 def two(f = None): return 2 if not f else f(2)

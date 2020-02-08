@@ -1,3 +1,4 @@
+#Analog digit counter
 def presses(phrase):
         BUTTONS = ['1', 'abc2', 'def3',
                   'ghi4', 'jkl5', 'mno6',
