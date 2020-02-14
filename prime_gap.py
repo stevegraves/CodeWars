@@ -1,6 +1,7 @@
 import math
 
-#Boolean primality check with 6k +/- 1 pattern
+
+# Boolean primality check with 6k +/- 1 pattern
 def is_prime(n):
     if n <= 6:
         return n == 2 or n == 3 or n == 5
@@ -15,7 +16,7 @@ def is_prime(n):
     return True
 
 
-#find first prime pair of given gap within range
+# find first prime pair of given gap within range
 def gap(g, m, n):
     previous = None
     for i in range(m, n + 1):
@@ -28,6 +29,3 @@ def gap(g, m, n):
             else:
                 previous = i
     return None
-
-
-
