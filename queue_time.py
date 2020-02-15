@@ -1,4 +1,4 @@
-#Multi Queueing
+# Multi Queueing
 def queue_time(customers, n):
     l = [0] * n
     for i in customers:
