@@ -2,7 +2,7 @@ from operator import itemgetter
 from collections import Counter
 
 
-# My initial solution
+# My initial solution for counting occurrences of letters in two strings
 def mix(s1, s2):
     dict1 = {}
     dict2 = {}
