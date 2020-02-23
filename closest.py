@@ -2,8 +2,8 @@ from operator import itemgetter
 
 
 # initial solution
-"""
-def closest(strng):
+
+def closest1(strng):
     if len(strng) == 0:
         return []
     nums = [int(x) for x in (strng.split())]
@@ -33,7 +33,7 @@ def closest(strng):
             break
 
     return [result[final_indx[0]], result[final_indx[1]]]
-"""
+
 
 # Best Practice
 def closest(s):
