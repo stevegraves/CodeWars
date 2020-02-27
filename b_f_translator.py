@@ -1,3 +1,5 @@
+# Not correct
+
 def brainfuck_to_c(source_code):
     valid_chars = '+-<>,.[]'
     output = ''
@@ -26,7 +28,7 @@ def brainfuck_to_c(source_code):
     if output == '':
         return ''
 
-    #print(output)
+    # print(output)
     count = 1
     for i in range(1, len(output)):
         if output[i - 1] == output[i]:
@@ -76,8 +78,6 @@ def brainfuck_to_c(source_code):
 
     print(output2)
     return output2
-            
-
 
 
 test1 = "++--+."
@@ -89,7 +89,6 @@ s_c1 = "++++"
 s_c2 = "----"
 
 brainfuck_to_c(test1)
-#brainfuck_to_c(test3)
+# brainfuck_to_c(test3)
 brainfuck_to_c(test2)
 brainfuck_to_c(s_c1)
-
