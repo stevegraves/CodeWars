@@ -32,4 +32,3 @@ x = '507f1f77bcf86cd799439011'[:8]
 y = int(x, 16)
 print(datetime.utcfromtimestamp(y))
 
-print(datetime(2012, 10, 17, 21, 13, 27))
