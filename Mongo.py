@@ -24,6 +24,7 @@ class Mongo(object):
             return datetime.fromtimestamp(int(s[:8], 16))
         return False
 
+
 Mongo.is_valid('507f1f77bcf86cd799439011')  # True
 Mongo.get_timestamp('507f1f77bcf86cd799439011')  # Wed Oct 17 2012 21:13:27 GMT-0700 (Pacific Daylight Time)
 
