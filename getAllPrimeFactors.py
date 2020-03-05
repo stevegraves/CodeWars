@@ -1,4 +1,4 @@
-def getAllPrimeFactors(n):
+def getallprimefactors(n):
     output = []
     if type(n) is not int or n <= 0:
         return output
@@ -47,6 +47,6 @@ def getUniquePrimeFactorsWithProducts(n):
 
 
 
-getAllPrimeFactors(100)
+getallprimefactors(100)
 getUniquePrimeFactorsWithCount(100)
 getUniquePrimeFactorsWithProducts(100)
